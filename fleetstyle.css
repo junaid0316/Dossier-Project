@@ -1,0 +1,983 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.second{
+    text-align: center;
+    color: white;
+    background-color: #15315A;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 70px 180px 70px 180px;
+    position: relative;
+}
+.tridiv{
+    position: absolute;
+    bottom: -10px;
+    left: 48%;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 40px;
+    background-color: #15315A;
+}
+.tridivwhite{
+    position: absolute;
+    bottom: -10px;
+    left: 48%;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    z-index: 10;
+}
+.tridivnav{
+    position: absolute;
+    top: -15px;
+    left: 25%;
+    transform: rotate(45deg);
+    width: 30px;
+    height: 30px;
+    background-color: #f7f7f7;
+    z-index: 10;
+}
+.white{
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    height: 40px;
+    z-index: 5;
+    background-color: white;
+}
+.stream{
+    border-radius: 0px;
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    width: 400px;
+    height: 43px;
+    background-color: #15315A;
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+}
+.stream:hover{
+    border: 2px solid white;
+    background-color: white ;
+    color: #15315A;
+}
+.virtual{
+    border-radius: 0px;
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    width: 18%;
+    background-color: #15315a21;
+    height: 43px;
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+}
+.virtual:hover{
+    border: 2px solid white;
+    background-color: white ;
+    color: #15315A;
+}
+.virtualread{
+    border-radius: 0px;
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    width: 50%;
+    background-color: #15315a21;
+    height: 43px;
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+    margin-bottom: 40px;
+}
+.virtualread:hover{
+    border: 2px solid white;
+    background-color: white ;
+    color: #15315A;
+}
+.morebtn{
+    border-radius: 0px;
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    width: 80%;
+    background-color: #15315a21;
+    height: 43px;
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+    margin-top: 18px;
+}
+.morebtn:hover{
+    border: 2px solid white;
+    background-color: white ;
+    color: #15315A;
+}
+.advanbtn{
+    border-radius: 0px;
+    border: 2px solid #15315A;
+    color: #15315A;
+    font-size: 17px;
+    font-weight: 300;
+    width: 30%;
+    background-color: white;
+    height: 55px;
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.advanbtn:hover{
+    border: 2px solid  #80db01;
+    background-color: #80db01 ;
+    color: white;
+}
+.learnmor{
+    border-radius: 0px;
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    width: 28%;
+    background-color: #15315a21;
+    height: 43px;
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+}
+.learnmor:hover{
+    border: 2px solid white;
+    background-color: white ;
+    color: #15315A;
+}
+.saving{
+    border-radius: 0px;
+    border: 2px solid white;
+    color: #15315A;
+    font-size: 17px;
+    font-weight: 300;
+    width: 18%;
+    background-color: white;
+    height: 43px;
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+    margin-right: 20px;
+}
+.saving:hover{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.082) ;
+    color: white;
+}
+.secpara{
+    line-height: 1.4;
+    color: #FFFFFFD9 !important;
+    font-size: 19px;
+}
+.sech1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.third{
+    background: url("images/backfleet.jpg");
+    text-align: center;
+    padding: 70px 0px 80px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.thirdh1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.learn{
+    border: 2px solid #15315A;
+    border-radius: 0px;
+    color: #15315A;
+    font-size: 17px;
+    font-weight: 300;
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    margin-top: 15px;
+    transition: 0.2s all ease-in-out;
+}
+.learn:hover{
+    background-color: #80db01 ;
+    color: white;
+    border: 2px solid #80db01;
+}
+.fourth{
+    padding: 0px 0px 40px 0px;
+    position: relative;
+}
+.fourthlinks{
+    background-color: #AAAAAA;
+    text-align: center;
+    padding: 35px 0px 35px 0px;
+    transition: 0.2s all ease-in-out;
+    height: 330px;
+    width: 100%;
+}
+.fourthlinks:hover{
+    background-color: #15315a;
+}
+.foranc{
+    color: #666666;
+    transition: 0.1s all ease-in-out;
+    text-decoration: none;
+}
+.foranc:hover{
+    text-decoration: none;
+    color: white;
+}
+.fourthico{
+    font-size: 80px;
+}
+.daily{
+    font-size: 27px;
+}
+.fifth{
+    background-color: #15315A;
+    color: white;
+    text-align: center;
+    padding: 70px 120px 70px 120px;
+    position: relative;
+}
+.iconfive{
+    color: grey;
+    width: 100%;
+}
+.icons{
+    margin-top: 30px;
+}
+
+.navbar{
+    background-color:white !important;
+    padding-left: 160px;
+    height: 100px;
+    z-index: 100;
+}
+.nav-link{
+    color: black !important;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 12px;
+    height: 60px;
+    transition: 0.3s all ease-in-out;
+    padding-top: 15px;
+}
+.nav-link:hover{
+    transition: 0.3s all ease-in-out;
+}
+.dropdown-menu{
+    background-color: #f7f7f7!important;
+    border-radius: 0px;
+    margin-top: 20px !important;
+
+}
+.dropdown-item{
+    color: #404041 !important;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.dropdown-item:hover{
+    color: #15315A !important;
+    background-color: #f7f7f7!important;
+}
+.icocaro{
+    display: inline-block;
+    font-size: 50px;
+    color: green;
+}
+.paracaro{
+    margin: -70px 0px 0px 70px;
+    font-size: 19px;
+}
+.writecaro{
+    text-align: left;
+    margin-top: 15px;
+}
+.writegrey{
+    margin: 30px 0px 0px 70px;
+}
+.slidercaro{
+    text-align: center;
+    background: url('images/fleet3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 700px;
+    color: white;
+    padding-top: 150px;
+}
+.slidercaro1{
+    text-align: center;
+    background: url('images/fleet2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 700px;
+    color: white;
+    padding-top: 150px;
+}
+.slidercaro2{
+    text-align: center;
+    background: url('images/fleet1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 700px;
+    color: white;
+    padding-top: 150px;
+}
+.enhance{
+    text-shadow: 2px 2px #666666;
+    font-size: 65px;
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.enhance1{
+    text-shadow: 2px 2px #666666;
+    font-size: 65px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.dropbtn{
+    border: 2px solid #666666;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 6px;
+    height: 60px;
+    width: 60px;
+    color: #666666;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.last{
+    background-color: #15315A;
+    padding: 70px 0px 70px 100px;
+}
+.about{
+    color: #80bd01;
+}
+.lastsecpara{
+    font-size: 16px;
+    color: white;
+}
+.lastsecpara2{
+    font-size: 16px;
+    color: white;
+    width: 90%;
+}
+
+.lastsecpara3{
+    font-size: 16px;
+    color: white;
+    width: 90%;
+    margin-top: -4px;
+}
+.locico{
+    display: inline-block;
+    color: #80bd01;
+    vertical-align: top;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.location{
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+    margin-left: 8px;
+    width: 50%;
+}
+.press{
+    margin-top: 20px;
+}
+.presslink{
+    text-decoration: none;
+    color: white;
+}
+
+.presslink:hover{
+    text-decoration: none;
+    color: white;
+}
+.dots{
+    text-decoration: none;
+    color: #999;
+    transition: 0.2s all ease-in-out;
+    margin-left: 3px;
+}
+
+.dots:hover{
+    text-decoration: none;
+    color: white;
+}
+.dossierlink{
+    color: #999;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+    font-size: 24px;
+}
+.dossierlink:hover{
+    color: white;
+    text-decoration: none;
+}
+.upcoming1{
+    width: 80%;
+}
+.homlinkk{
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 8px;
+    color: white;
+    transition: 0.2s all ease-in-out;
+}
+.homlinkk:hover{
+    color: #999;
+    text-decoration: none;
+}
+.copyright{
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    width: 40%;
+}
+.links{
+    display: inline-block;
+}
+.copy{
+    background-color: #3E3934;
+    padding: 18px 0px 18px 140px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+}
+.flex-1{
+    flex: 16.666%;
+}
+.first{
+    padding: 15px 140px 0px 0px;
+    text-align: right;
+}
+.phone{
+    margin-right: 5px;
+}
+.firstlinks{
+    text-decoration: none;
+    color: #666666;
+    transition: 0.2s all ease-in-out;
+    font-size: 18px;
+    margin-right: 15px;
+}
+.firstlinks:hover{
+    text-decoration: none;
+    color: #15315A;
+}
+
+/* SERVICE */
+
+.servicefirst{
+    background: url('images/bluebackfleet.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 27vh;
+    height: 155px;
+    padding: 40px 0px 0px 160px;
+    color: white;
+    font-size: 50px;
+}
+.behind{
+    font-size: 18px;
+    color: #666666;
+}
+.behindc{
+    font-size: 19px;
+    color: #666666;
+}
+.behindcont{
+    font-size: 20px;
+    color: #666666;
+}
+.predeve{
+    color: #80bd01;
+}
+.secondservice{
+    padding: 60px 150px 40px 150px;
+    position: relative;
+}
+.rowsecond{
+    margin-top: 70px;
+}
+.great{
+    color: #15315A;
+}
+
+
+/* ADVANCED */
+
+.advancedfirst{
+    background: url('images/bluebackfleet.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 40vh;
+    height: 200px;
+    padding: 30px 400px 0px 160px;
+    color: white;
+    font-size: 50px;
+}
+.advanwrite{
+    color: #15315A;
+    font-size: 21px;
+    padding: 70px 150px 0px 180px;
+}
+.mainadvan{
+    padding: 10px 150px 70px 180px;
+    position: relative;
+}
+.fuel{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 100%;
+}
+.fuelico{
+    flex: 15%;
+}
+.fuelwrite{
+    flex: 70%;
+}
+.meterimp{
+    color: #15315A;
+}
+.mcleod{
+    color: #15315A;
+    margin: 30px 0px 30px 0px;
+}
+.btnsection{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* CONTACT */
+
+.test{
+    color: #15315A;
+    font-weight: 500;
+    font-size: 48px !important;
+}
+.contact {
+    color: #fff;
+    padding: 20px 0 40px 0;
+    width: 100%;
+}
+
+.contact span {
+    background-color: #fff;
+    color: #254558;
+    border-radius: 30px;
+    padding: 7px 20px;
+    font-weight: 700;
+}
+
+.contact-box {
+    padding: 5px 20px 65px 20px;
+    border-radius: 5px;
+}
+
+.contact-box h2 {
+    color: #1e5325;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Oswald;
+}
+
+.contact-box input {
+    border-radius: 5px;
+}
+
+.contact-box input[type="submit"] {
+    background-color: #1e5325;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.contact-box textarea {
+    border-radius: 15px;
+}
+.firstcont{
+    padding: 70px 160px 80px 160px;
+    position: relative;
+}
+.linkcont{
+    text-decoration: none;
+    color: #15315A;
+    transition: 0.2s all ease-in-out;
+    font-size: 19px;
+}
+.linkcont:hover{
+    color: #80bd01;
+}
+.linkanccon{
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.maploc{
+    height: 460px;
+    width: 100%;
+}
+.secondcont{
+    margin-top: 60px;
+}
+
+.tag_sec {
+    background: #f2f2f2;
+    color: #333;
+    background-size: cover;
+    padding: 40px 0px 40px 0px;
+}
+
+img.twitter {
+    width: 41px;
+    height: 40px;
+}
+
+.mg_top {
+    margin-top: 45px;
+}
+
+.tag_sec ul {
+    list-style-type: none;
+    margin-left: -9px;
+    padding-left: 0px;
+}
+
+.tag_sec ul li a {
+    color: #1e5325;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    display: block;
+    padding: 3x 3px 3px 3px;
+}
+
+.tag_sec ul li a:hover {
+    color: #333;
+    text-decoration: underline;
+    background: #f5f5f5;
+}
+
+.logo_p {
+    margin-top: 20%;
+}
+
+.logo_p img {
+    width: 149px;
+    height: 35px;
+}
+
+.sub h4 {
+    color: #1e5325;
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+.sub input {
+    padding: 6px 15px;
+}
+
+
+@media only screen and (max-width: 770px){
+    .first{
+        padding: 15px 0px 0px 0px;
+        text-align: center;
+    }
+    .phone{
+        margin-right: 5px;
+    }
+    .firstlinks{
+        text-decoration: none;
+        color: #666666;
+        transition: 0.2s all ease-in-out;
+        font-size: 17px;
+        margin-right: 16px;
+    }
+    .navbar{
+        background-color:white !important;
+        padding-left: 10px;
+        height: 100px;
+        z-index: 100;
+    }
+    .navcol{
+        background-color: #262626;
+        margin: 0px;
+        padding: 20px 0px 0px 0px;
+    }
+    .nav-item{
+        border-bottom: 1px solid #707070cb !important;
+    }
+    .nav-link{
+        color: #707070!important;
+        font-weight: 400;
+        font-size: 14px;
+        margin-left: 12px;
+        height: 50px;
+        transition: 0.3s all ease-in-out;
+        padding-top: 13px;
+    }
+    .nav-link:hover{
+        transition: 0.3s all ease-in-out;
+    }
+    .dropdown-menu{
+        background-color: #262626!important;
+        border-radius: 0px;
+        margin-top: 20px !important;
+    
+    }
+    .dropdown-item{
+        color: #707070 !important;
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    .dropdown-item:hover{
+        color: #15315A !important;
+        background-color: #f7f7f7!important;
+    }
+    .tridivnav{
+        position: absolute;
+        top: -15px;
+        left: 25%;
+        transform: rotate(45deg);
+        width: 0px;
+        height: 0px;
+        background-color: #f7f7f7;
+        z-index: 10;
+    }
+    .white{
+        position: absolute;
+        top: -40px;
+        width: 0%;
+        height: 0px;
+        z-index: 5;
+        background-color: white;
+    }
+    .slidercaro{
+        text-align: center;
+        background: url('images/fleet3.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 40vh;
+        height:300px;
+        color: white;
+        padding-top: 20px;
+    }
+    .slidercaro1{
+        text-align: center;
+        background: url('images/fleet2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 40vh;
+        height: 300px;
+        color: white;
+        padding-top: 20px;
+    }
+    .slidercaro2{
+        text-align: center;
+        background: url('images/fleet1.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 40vh;
+        height: 300px;
+        color: white;
+        padding-top: 20px;
+    }
+    .enhance{
+        text-shadow: 2px 2px #666666;
+        font-size: 32px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .enhance1{
+        text-shadow: 2px 2px #666666;
+        font-size: 32px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .dropbtn{
+        border: 2px solid #666666;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 35px;
+        padding-top: 6px;
+        height: 60px;
+        width: 60px;
+        color: #666666;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .saving{
+        border-radius: 0px;
+        border: 2px solid white;
+        color: #15315A;
+        font-size: 17px;
+        font-weight: 300;
+        width: 80%;
+        background-color: white;
+        height: 43px;
+        margin-top: 0px;
+        transition: 0.2s all ease-in-out;
+        margin-right: 20px;
+        display: block;
+        margin-left: 35px;
+    }
+    .btncaro{
+        width: 80%;
+        margin-left: 0px !important;
+    }
+    .virtual{
+        border-radius: 0px;
+        border: 2px solid white;
+        color: white;
+        font-size: 17px;
+        font-weight: 300;
+        width: 80%;
+        background-color: #15315a21;
+        height: 43px;
+        margin-top: 15px;
+        transition: 0.2s all ease-in-out;
+    }
+    .second{
+        text-align: center;
+        color: white;
+        background-color: #15315A;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 70px 10px 70px 10px;
+        position: relative;
+    }
+    .stream{
+        border-radius: 0px;
+        border: 2px solid white;
+        color: white;
+        font-size: 17px;
+        font-weight: 300;
+        width: 350px;
+        height: 43px;
+        background-color: #15315A;
+        margin-top: 15px;
+        transition: 0.2s all ease-in-out;
+    }
+    .learn{
+        width: 350px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .flex-1{
+        flex: 100%;
+    }
+    .fourthlinks{
+        height: 260px;
+    }
+    .fifth{
+        background-color: #15315A;
+        color: white;
+        text-align: center;
+        padding: 70px 10px 70px 10px;
+        position: relative;
+    }
+    .iconfive{
+        width: 70%;
+        height: 70px;
+        margin-top: 30px;
+    }
+    .last{
+        background-color: #15315A;
+        padding: 70px 0px 70px 5px;
+    }
+    .rele{
+        margin-top: 20px;
+    }
+    .copy{
+        background-color: #3E3934;
+        padding: 18px 0px 18px 10px;
+    }
+    .copyright{
+        display: inline-block;
+        font-size: 14px;
+        color: white;
+        width: 60%;
+    }
+    .advancedfirst{
+        background: url('images/bluebackfleet.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 40vh;
+        height: 150px;
+        padding: 30px 20px 0px 10px;
+        color: white;
+        font-size: 29px;
+    }
+    .advanwrite{
+        color: #15315A;
+        font-size: 21px;
+        padding: 70px 40px 0px 40px;
+    }
+    .mainadvan{
+        padding: 10px 40px 70px 40px;
+        position: relative;
+    }
+    .fuel{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        width: 100%;
+    }
+    .fuelico{
+        flex: 15%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .meterimp{
+        margin-bottom: 20px;
+        font-weight: 600 !important;
+    }
+    .fuelwrite{
+        flex: 70%;
+    }
+    .advanbtn{
+        display: block;
+        width: 100%;
+    }
+    .servicefirst{
+        padding: 20px 0px 20px 20px;
+        height: 80px;
+        background-size: 100vw 30vh;
+        font-size: 29px;
+    }
+    .secondservice{
+        padding: 60px 10px 40px 10px;
+        position: relative;
+    }
+    .firstcont{
+        padding: 70px 10px 80px 10px;
+        position: relative;
+    }
+    .maploc{
+        height: 400px;
+        width: 100%;
+    }
+    
+    .tag_sec ul li a {
+        font-size: 16px;
+    }
+    .tag_sec h4 {
+        font-size: 18px;
+        font-family: Oswald;
+    }
+}
